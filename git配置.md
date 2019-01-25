@@ -18,6 +18,8 @@
 
 ## VsCode Git配置
 
+### 创建Git项目
+
 用Vs code 打开需要同步的项目，点击左上角版本同步图标
 
 ![1548396120224](C:\Users\BUSDRI~1\AppData\Local\Temp\1548396120224.png)
@@ -34,6 +36,26 @@
 
 ![1548396935228](C:\Users\BUSDRI~1\AppData\Local\Temp\1548396935228.png)
 
-出现如下对话框，选择yes即可
+出现如下对话框，选择yes或always即可
 
 ![1548396755708](C:\Users\BUSDRI~1\AppData\Local\Temp\1548396755708.png)
+
+提交完成
+
+![1548396998100](C:\Users\BUSDRI~1\AppData\Local\Temp\1548396998100.png)
+
+### 同步Git项目
+
+#### 修改文件
+
+当修改了已提交到Git项目中的文件时（上图所示4个），vs code会自动检测到修改，并显示
+
+![1548397200237](C:\Users\BUSDRI~1\AppData\Local\Temp\1548397200237.png)
+
+#### 创建文件
+
+
+
+当需要再次同步时，同样只需要输入 `同步说明`并点击同步即可
+
+![1548397291716](C:\Users\BUSDRI~1\AppData\Local\Temp\1548397291716.png)
